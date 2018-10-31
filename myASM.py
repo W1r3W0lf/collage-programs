@@ -2,6 +2,10 @@
 
 import sys
 
+# A simple assembler for a CPU that we made in software.
+# We where ment to do all of the machine code by hand.
+# But I wrote this up do I didn't have to
+
 if len(sys.argv) != 3:
 	print("Usage\t file_IN file_OUT")
 	raise ValueError
