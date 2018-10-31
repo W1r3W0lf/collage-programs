@@ -3,6 +3,11 @@
 #include <math.h>
 #include <stdlib.h>
 
+/*
+  This program findes the best n and c for n^2+n+c
+  It finds the solution that gives the most primes given a range of 1000 numbers.
+*/
+
 unsigned long elrPolly(int x, int c){
   unsigned long n = x;
   n = n*n+n+c;
@@ -37,7 +42,6 @@ int fastSweetness(unsigned long* test){
 }
 
 //#define MAXNUM 4000000
-
 
 #define MAXNUM  100000
 
