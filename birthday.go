@@ -53,8 +53,6 @@ func bdaySize(size, maxNum int, randFunc func(int)int)float64{
 
 		days = make([]int, 365, 365)
 	}
-	//result := math.Ceil(float64(grandSum)/float64(maxNum))
-	//return int(result)
 	return float64(grandSum)/float64(maxNum)
 }
 
